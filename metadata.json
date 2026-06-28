@@ -1,0 +1,6 @@
+{
+  "name": "Home Appliances Repair and Service",
+  "description": "Premium landing page for Home Appliances Repair and Service, featuring same-day appliance repair and certified services for homes and businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
