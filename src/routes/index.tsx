@@ -229,7 +229,7 @@ function Index() {
             {/* Glowing Backdrop */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-r from-transparent via-[#FFB800]/10 to-transparent blur-3xl rounded-full z-0 pointer-events-none"></div>
 
-            <div className="relative w-full max-w-[500px] z-10 px-4 sm:px-0">
+            <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[500px] mx-auto z-10 px-4 sm:px-0">
               {/* ChatGPT Image */}
               <div className="relative z-10 drop-shadow-2xl">
                 <div style={{ filter: "url(#remove-white-fringe)" }}>
@@ -258,7 +258,7 @@ function Index() {
       {/* About */}
       <section className="border-t border-white/5 py-24">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 lg:grid-cols-2">
-          <div className="relative group overflow-hidden rounded-3xl border border-white/10 shadow-2xl h-[450px] lg:h-full min-h-[450px] bg-[#0c1f13]">
+          <div className="relative group overflow-hidden rounded-3xl border border-white/10 shadow-2xl h-[350px] sm:h-[450px] lg:h-full min-h-[350px] sm:min-h-[450px] bg-[#0c1f13]">
             {/* Ambient Background Light */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-[#FFB800]/20 blur-3xl rounded-full z-0 transition-transform duration-700 group-hover:scale-110 pointer-events-none"></div>
 
